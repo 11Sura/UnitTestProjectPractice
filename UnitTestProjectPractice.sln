@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProjectPractice", "UnitTestProjectPractice\UnitTestProjectPractice.csproj", "{6696BA23-F17D-4965-A1B9-D944D01A51A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiTimePractice", "ActiTimePractice\ActiTimePractice.csproj", "{4EDBEDF2-6315-4F3C-97CF-84E224758166}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6696BA23-F17D-4965-A1B9-D944D01A51A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6696BA23-F17D-4965-A1B9-D944D01A51A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6696BA23-F17D-4965-A1B9-D944D01A51A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EDBEDF2-6315-4F3C-97CF-84E224758166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EDBEDF2-6315-4F3C-97CF-84E224758166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EDBEDF2-6315-4F3C-97CF-84E224758166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EDBEDF2-6315-4F3C-97CF-84E224758166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

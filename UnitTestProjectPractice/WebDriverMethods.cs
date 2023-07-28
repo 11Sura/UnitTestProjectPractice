@@ -136,7 +136,7 @@ namespace UnitTestProjectPractice
             IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl("https://www.amazon.in/");
             Console.WriteLine("navigated to amazon.in");
-
+           
             driver.Quit();
             driver.Dispose();
         }
