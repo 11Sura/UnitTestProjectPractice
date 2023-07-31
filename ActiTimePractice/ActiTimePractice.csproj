@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GenericLibrary\BaseLibrary.cs" />
+    <Compile Include="GenericLibrary\ExcelLibrary.cs" />
     <Compile Include="GenericLibrary\WebactionsLibrary.cs" />
     <Compile Include="ObjectRepo\HomePage.cs" />
     <Compile Include="ObjectRepo\LoginPage.cs" />
@@ -73,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="TestScriptData\ActiTimeData.xlsx" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
