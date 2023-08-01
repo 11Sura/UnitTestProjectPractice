@@ -69,6 +69,8 @@
     <Compile Include="AttributesPractice\AssemblyInitializePractice.cs" />
     <Compile Include="AttributesPractice\ClassInitializePractice.cs" />
     <Compile Include="AttributesPractice\DynamicDataPractice.cs" />
+    <Compile Include="AttributesPractice\ExpectedExceptionPractice.cs" />
+    <Compile Include="AttributesPractice\PriorityPractice.cs" />
     <Compile Include="AttributesPractice\TestInitializePractice.cs" />
     <Compile Include="AttributesPractice\TimeoutPractice.cs" />
     <Compile Include="PracticePrograms\StringProgramsPractice.cs" />
