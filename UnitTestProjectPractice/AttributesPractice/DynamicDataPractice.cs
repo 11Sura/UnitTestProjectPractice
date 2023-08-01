@@ -19,7 +19,8 @@ namespace UnitTestProjectPractice.AttributesPractice
             Console.WriteLine($"Patient {name} is a {age} years old {species}");
         }
 
-
+        //below code is used to fetch data from external resource file(excel file)
+        //this code must be written within the same class as test method
         public static IEnumerable<Object[]> VetData()
         {
             Spreadsheet spreadsheet = new Spreadsheet();
@@ -27,7 +28,7 @@ namespace UnitTestProjectPractice.AttributesPractice
             int lastrow = spreadsheet.Workbook.Worksheets.ByName("Vet").UsedRangeRowMax;
             Worksheet sheetName = spreadsheet.Workbook.Worksheets["Vet"];
 
-            for(int i = 1; i < lastrow; i++)
+            for(int i = 1; i <= lastrow; i++)
             {
                 string name = sheetName.Cell(i, 0).ToString();
                 string age = sheetName.Cell(i, 1).ToString();

@@ -69,6 +69,7 @@
     <Compile Include="ObjectRepo\LoginPage.cs" />
     <Compile Include="ObjectRepo\TaskListPage.cs" />
     <Compile Include="TestScripts\CreateCustomerTest.cs" />
+    <Compile Include="TestScripts\DataDrivenLogin.cs" />
     <Compile Include="TestScripts\LoginTest.cs" />
     <Compile Include="TestScripts\MultipleLoginTest.cs" />
     <Compile Include="UnitTest1.cs" />
