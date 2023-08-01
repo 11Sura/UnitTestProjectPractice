@@ -25,14 +25,14 @@ namespace ActiTimePractice.ObjectRepo
 
         public By GetTaskTab()
         {
-            By locator = By.Id("container_tasks");
-            return locator;
+            By taskTabLocator = By.Id("container_tasks");
+            return taskTabLocator;
         }
 
         public By GetLogoutLink()
         {
-            By locator = By.Id("logoutLink");
-            return locator;
+            By logoutLinkLocator = By.Id("logoutLink");
+            return logoutLinkLocator;
         }
 
         //business logic

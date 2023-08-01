@@ -61,11 +61,12 @@ namespace ActiTimePractice.TestScripts
             loginPage.Login(username, password);
             Console.WriteLine("Logged into the application");
             
-            By locator = homePage.GetTaskTab();
-            webactionsLibrary.WaitForElement(driver,locator);
+            By taskTabLocator = homePage.GetTaskTab();
+            webactionsLibrary.WaitForElement(driver, taskTabLocator);
             homePage.TasksClick();
             Console.WriteLine("Clicked on tasks tab");
-            webactionsLibrary.WaitImplicitly(driver);
+            By logoutLinkLocator=homePage.GetLogoutLink();
+            webactionsLibrary.WaitForElement(driver, logoutLinkLocator);
             homePage.Logout();
             Console.WriteLine("Logged out of the application");
 
