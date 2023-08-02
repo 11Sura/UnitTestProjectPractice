@@ -14,8 +14,8 @@ namespace UnitTestProjectPractice.AttributesPractice
     public class TimeoutPractice
     {
         [TestMethod]
-        [Timeout(3000)]      //this attribute is used to set time duration for the excution of method
-                             //for example, in this case the method should get executed within 3000ms, else it fails. 
+        [Timeout(3000)]           //this attribute is used to set time duration for the excution of method
+                                 //for example, in this case the method should get executed within 3000ms, else it fails. 
         public void TimeoutMain()
         {
             IWebDriver driver=new ChromeDriver();
@@ -25,8 +25,8 @@ namespace UnitTestProjectPractice.AttributesPractice
         }
 
         [TestMethod]
-        
-        public void Print()  //this method has no time out duration, it will execute normally
+        [Owner("Sushma")]
+        public void Print()     //this method has no time out duration, it will execute normally
         {
             IWebDriver driver = new ChromeDriver();
             Console.WriteLine("Chrome browser opened");

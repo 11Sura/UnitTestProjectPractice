@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="3a0e5711-e307-47a2-b339-4786ba62d09b" name="Sushma@LAPTOP-5MB13OGU 2023-08-02 11:00:07" runUser="LAPTOP-5MB13OGU\Sushma" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-08-02T11:00:07.3439211+05:30" queuing="2023-08-02T11:00:07.3439211+05:30" start="2023-08-02T11:00:04.1468919+05:30" finish="2023-08-02T11:00:14.1928198+05:30" />
+  <TestSettings name="default" id="51fde098-d1f3-46a0-9476-d1b8526ef9c9">
+    <Deployment runDeploymentRoot="Sushma_LAPTOP-5MB13OGU_2023-08-02_11_00_07" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="2bfa31e8-901a-42aa-b21c-aa1ace29a66d" testId="f75817ec-d357-cf07-741b-daa74d2feb55" testName="TestMethod2" computerName="LAPTOP-5MB13OGU" duration="00:00:02.0044494" startTime="2023-08-02T11:00:07.3403808+05:30" endTime="2023-08-02T11:00:09.3451470+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2bfa31e8-901a-42aa-b21c-aa1ace29a66d">
+      <Output>
+        <StdOut>second</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4b36286f-8a44-4f13-a558-2fbf768493c4" testId="e0bc036a-0860-3547-9b08-1d873964a4e7" testName="TestMethod1" computerName="LAPTOP-5MB13OGU" duration="00:00:02.0178222" startTime="2023-08-02T11:00:04.2604329+05:30" endTime="2023-08-02T11:00:07.3303786+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b36286f-8a44-4f13-a558-2fbf768493c4">
+      <Output>
+        <StdOut>first</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="42ab03e1-c6af-446a-8fea-8d33993da724" testId="131e259c-028f-494b-6724-5aadc88c3fa3" testName="TestMethod4" computerName="LAPTOP-5MB13OGU" duration="00:00:02.0147240" startTime="2023-08-02T11:00:09.3459568+05:30" endTime="2023-08-02T11:00:11.3615895+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42ab03e1-c6af-446a-8fea-8d33993da724">
+      <Output>
+        <StdOut>fourth</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="033c911c-2e29-46e8-bb92-d596f1500c28" testId="8512d9d1-6a8f-def3-a1c1-737c865be098" testName="TestMethod3" computerName="LAPTOP-5MB13OGU" startTime="2023-08-02T11:00:09.3459568+05:30" endTime="2023-08-02T11:00:09.3459568+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="033c911c-2e29-46e8-bb92-d596f1500c28">
+      <Output></Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\sushma\csharpvisualstudio\unittestprojectpractice\unittestprojectpractice\bin\debug\unittestprojectpractice.dll" priority="0" id="e0bc036a-0860-3547-9b08-1d873964a4e7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="A" />
+      </TestCategory>
+      <Execution id="4b36286f-8a44-4f13-a558-2fbf768493c4" />
+      <TestMethod codeBase="C:\Users\Sushma\CsharpVisualStudio\UnitTestProjectPractice\UnitTestProjectPractice\bin\Debug\UnitTestProjectPractice.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProjectPractice.TestScripts_02Aug2023.PriorityExample1" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod3" storage="c:\users\sushma\csharpvisualstudio\unittestprojectpractice\unittestprojectpractice\bin\debug\unittestprojectpractice.dll" priority="1" id="8512d9d1-6a8f-def3-a1c1-737c865be098">
+      <TestCategory>
+        <TestCategoryItem TestCategory="A" />
+      </TestCategory>
+      <Execution id="033c911c-2e29-46e8-bb92-d596f1500c28" />
+      <TestMethod codeBase="C:\Users\Sushma\CsharpVisualStudio\UnitTestProjectPractice\UnitTestProjectPractice\bin\Debug\UnitTestProjectPractice.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProjectPractice.TestScripts_02Aug2023.PriorityExample1" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="TestMethod4" storage="c:\users\sushma\csharpvisualstudio\unittestprojectpractice\unittestprojectpractice\bin\debug\unittestprojectpractice.dll" priority="0" id="131e259c-028f-494b-6724-5aadc88c3fa3">
+      <TestCategory>
+        <TestCategoryItem TestCategory="A" />
+      </TestCategory>
+      <Execution id="42ab03e1-c6af-446a-8fea-8d33993da724" />
+      <TestMethod codeBase="C:\Users\Sushma\CsharpVisualStudio\UnitTestProjectPractice\UnitTestProjectPractice\bin\Debug\UnitTestProjectPractice.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProjectPractice.TestScripts_02Aug2023.PriorityExample1" name="TestMethod4" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="c:\users\sushma\csharpvisualstudio\unittestprojectpractice\unittestprojectpractice\bin\debug\unittestprojectpractice.dll" priority="2" id="f75817ec-d357-cf07-741b-daa74d2feb55">
+      <TestCategory>
+        <TestCategoryItem TestCategory="A" />
+      </TestCategory>
+      <Execution id="2bfa31e8-901a-42aa-b21c-aa1ace29a66d" />
+      <TestMethod codeBase="C:\Users\Sushma\CsharpVisualStudio\UnitTestProjectPractice\UnitTestProjectPractice\bin\Debug\UnitTestProjectPractice.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProjectPractice.TestScripts_02Aug2023.PriorityExample1" name="TestMethod2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f75817ec-d357-cf07-741b-daa74d2feb55" executionId="2bfa31e8-901a-42aa-b21c-aa1ace29a66d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0bc036a-0860-3547-9b08-1d873964a4e7" executionId="4b36286f-8a44-4f13-a558-2fbf768493c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="131e259c-028f-494b-6724-5aadc88c3fa3" executionId="42ab03e1-c6af-446a-8fea-8d33993da724" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8512d9d1-6a8f-def3-a1c1-737c865be098" executionId="033c911c-2e29-46e8-bb92-d596f1500c28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Test 'TestMethod3' was skipped in the test run.&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

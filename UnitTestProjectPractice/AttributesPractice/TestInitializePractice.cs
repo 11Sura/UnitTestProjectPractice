@@ -8,13 +8,16 @@ using System.Windows;
 
 namespace UnitTestProjectPractice.AttributesPractice
 {
-    public class TestInitializePractice
+    public class TestInitializePractice:AssemblyInitializePractice
     {
         [TestInitialize]
         public void TestInitializeMain()
         {
             MessageBox.Show("This is Test Initialize");
+           
         }
+
+       
 
         [TestCleanup]
         public void TestCleanupMain()
