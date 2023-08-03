@@ -5,13 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using UnitTestProjectPractice.AttributesPractice;
 
 namespace UnitTestProjectPractice.TestScripts_02Aug2023
 {
     [TestClass]
     [TestCategory("A")]    //while executing category, priority is not taken into consideration it executes on ascii values
                              //if trait is chosen as priority then it will be executed based on priority
-    public class PriorityExample1
+    public class PriorityExample1  //:TestInitializePractice
     {
         [TestMethod]
         [Priority(0)]

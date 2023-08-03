@@ -30,8 +30,8 @@ namespace UnitTestProjectPractice.AttributesPractice
         [AssemblyInitialize]
         public static void AssemblyInitializeMain(TestContext testContext1)
         {
-            testContext = testContext1;
-           // MessageBox.Show("This is Assembly Initialize");
+           // testContext = testContext1;
+            MessageBox.Show("This is Assembly Initialize");
         }
 
         [AssemblyCleanup]
