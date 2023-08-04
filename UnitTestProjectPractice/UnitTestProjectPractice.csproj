@@ -473,6 +473,7 @@
     <Compile Include="AttributesPractice\TestInitializePractice.cs" />
     <Compile Include="AttributesPractice\TimeoutPractice.cs" />
     <Compile Include="ExtentReportsPractice\ExtentReportsBasicCode.cs" />
+    <Compile Include="ODBC Connection\DataBaseODBC.cs" />
     <Compile Include="PopUpsPractice\AlertPopupPractice.cs" />
     <Compile Include="PopUpsPractice\AuthenticationPopupPractice.cs" />
     <Compile Include="PopUpsPractice\CalendarPopupPractice.cs" />

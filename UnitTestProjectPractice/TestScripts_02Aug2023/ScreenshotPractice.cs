@@ -17,7 +17,7 @@ namespace UnitTestProjectPractice.TestScripts_02Aug2023
         {
             IWebDriver driver= new ChromeDriver();
             driver.Manage().Window.Maximize();
-            //driver.Url = "https://www.google.com";
+            driver.Url = "https://www.google.com";
             ITakesScreenshot takesScreenshot = (ITakesScreenshot) driver;
             Screenshot source = takesScreenshot.GetScreenshot();                                       //provide name(eg: browser.png) along with path
             source.SaveAsFile("C:\\Users\\Sushma\\CsharpVisualStudio\\UnitTestProjectPractice\\UnitTestProjectPractice\\Screenshots\\browser.png", ScreenshotImageFormat.Png);

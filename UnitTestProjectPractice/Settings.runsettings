@@ -16,6 +16,11 @@
 
 		<Parameter name="myname" value="rama" />
 
+		<Parameter name="report1" value="Sushma" />
+		<Parameter name="report2" value="Veena" />
+		<Parameter name="report3" value="Datta" />
+		<Parameter name="report4" value="Tejas" />
+
 	</TestRunParameters>
 
 	<LoggerRunSettings>
