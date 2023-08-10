@@ -20,7 +20,7 @@ namespace UnitTestProjectPractice.AttributesPractice
         }
         
         [TestMethod]
-        [TestCategory("textcontext")]
+        [TestCategory("testcontext")]
         public void Test1Main()
         {
             TestContextVar.WriteLine(TestContextVar.TestName);
@@ -30,7 +30,7 @@ namespace UnitTestProjectPractice.AttributesPractice
         [AssemblyInitialize]
         public static void AssemblyInitializeMain(TestContext testContext1)
         {
-           // testContext = testContext1;
+            testContext = testContext1;
             MessageBox.Show("This is Assembly Initialize");
         }
 

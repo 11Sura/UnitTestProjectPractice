@@ -467,12 +467,16 @@
   <ItemGroup>
     <Compile Include="AttributesPractice\AssemblyInitializePractice.cs" />
     <Compile Include="AttributesPractice\ClassInitializePractice.cs" />
+    <Compile Include="AttributesPractice\DataDrivenTesting.cs" />
+    <Compile Include="AttributesPractice\DataSourceDDT.cs" />
+    <Compile Include="AttributesPractice\DataSourceDDTExcel.cs" />
     <Compile Include="AttributesPractice\DynamicDataPractice.cs" />
     <Compile Include="AttributesPractice\ExpectedExceptionPractice.cs" />
     <Compile Include="AttributesPractice\PriorityPractice.cs" />
     <Compile Include="AttributesPractice\TestInitializePractice.cs" />
     <Compile Include="AttributesPractice\TimeoutPractice.cs" />
     <Compile Include="ExtentReportsPractice\ExtentReportsBasicCode.cs" />
+    <Compile Include="ODBC Connection\DatabaseExtentReport.cs" />
     <Compile Include="ODBC Connection\DataBaseODBC.cs" />
     <Compile Include="PopUpsPractice\AlertPopupPractice.cs" />
     <Compile Include="PopUpsPractice\AuthenticationPopupPractice.cs" />
@@ -480,6 +484,7 @@
     <Compile Include="PopUpsPractice\ConfirmationPopupPractice.cs" />
     <Compile Include="PopUpsPractice\FileUploadPopupPractice.cs" />
     <Compile Include="PopUpsPractice\NotificationPopupPractice.cs" />
+    <Compile Include="PracticePrograms\Hello.cs" />
     <Compile Include="PracticePrograms\StringProgramsPractice.cs" />
     <Compile Include="Report.cs" />
     <Compile Include="TestScripts_02Aug2023\PriorityExample1.cs" />
@@ -493,6 +498,7 @@
     <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="Settings.runsettings" />
+    <None Include="TestData\Book.csv" />
     <None Include="TestData\Vet.xlsx" />
   </ItemGroup>
   <ItemGroup>
